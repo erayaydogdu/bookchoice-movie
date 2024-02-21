@@ -1,0 +1,9 @@
+@BookChoice.Movie.Api_HostAddress = http://localhost:5229
+
+### Send POST request with json body
+POST {{BookChoice.Movie.Api_HostAddress}}/api/movie/search
+Content-Type: application/json
+
+{
+  "Title": "titanic"
+}
